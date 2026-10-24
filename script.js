@@ -250,16 +250,20 @@ document.addEventListener("DOMContentLoaded", () => {
         text: "Hi. Ask me about Asim's experience, projects, stack, education, or contact details.",
       },
       {
-        keys: ["experience", "itc", "intern", "k-fabric"],
-        text: "Asim is currently an AI Engineer at ITC Infotech (Aug 2026 - Present), after working as an AI Engineer Intern (Jan 2026 - Jul 2026). He builds AI agents for K-Fabric, including coding standards enforcement, build orchestration, dependency resolution, and modular agent orchestration using Python, FastAPI, and LLM workflows.",
+        keys: ["kodx", "kots", "dots", "opencode", "coding agent"],
+        text: "At ITC Infotech, Asim built KODX from the ground up — an OpenCode-style AI coding agent for K-Fabrik — and KOTS, K-Fabrik's in-house equivalent of OpenAI Dots, taking it from concept to an internal release.",
+      },
+      {
+        keys: ["experience", "itc", "job", "k-fabrik", "k-fabric"],
+        text: "Asim is an AI Engineer at ITC Infotech (Jan 2026 - Present) on the K-Fabrik platform. He built KODX (an OpenCode-style coding agent) and KOTS (K-Fabrik's equivalent of OpenAI Dots), designed a pluggable agent-orchestration backend in Python/FastAPI, and built a Coding Standards Enforcer Agent, a Build Orchestration Agent, and a Dependency Resolver Agent with human-in-the-loop approval.",
       },
       {
         keys: ["novamed", "doctor booking", "stripe", "razorpay"],
-        text: "NovaMed is a doctor booking platform built with React, Node.js, Express, and MongoDB, with payments via Stripe and Razorpay. Live: https://doctor-booking-application-frontend-2u2g.onrender.com/ | GitHub: https://github.com/cryptasim/Doctor-Booking-Application",
+        text: "NovaMed is a live doctor-booking platform (team project) with three role-based apps for patients, doctors, and admins on a shared REST API. Asim designed the auth layer and RBAC, owned the appointment flow end to end with Stripe and Razorpay payments, and built the doctor-management backend. Stack: React, Node.js, Express, MongoDB. Live: https://doctor-booking-application-frontend-2u2g.onrender.com/ | GitHub: https://github.com/cryptasim/Doctor-Booking-Application",
       },
       {
         keys: ["phonesay", "stream sdk", "language"],
-        text: "PhoneSay is a real-time language learning platform built with React, Node.js, MongoDB, and Stream SDK. Live: https://phonesay.onrender.com/ | GitHub: https://github.com/cryptasim/PhoneSay",
+        text: "PhoneSay is a language-exchange app that matches users by language and connects them over real-time chat and video calls via Stream SDK. It has cookie-based JWT auth, bcrypt hashing, an onboarding flow, Zustand + React Query state, and 30+ TailwindCSS/DaisyUI themes. Live: https://phonesay.onrender.com/ | GitHub: https://github.com/cryptasim/PhoneSay",
       },
       {
         keys: ["mehfil", "mehfil.wtf", "sufi", "ghazal"],
@@ -271,15 +275,15 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         keys: ["skill", "stack", "tech", "technology"],
-        text: "Core stack: Python, C++, JavaScript, SQL | AI/LLM: LangChain, LangGraph, RAG, Prompt Engineering, Claude | Backend: FastAPI, Node.js, Express, Next.js, Edge API, REST APIs | Frontend: React, Tailwind CSS, Zustand, HTML, CSS | Databases: MongoDB, PostgreSQL, MySQL, Neo4j | Tools: Git, GitHub, Vercel, Linux, VS Code, Cursor, Azure ML.",
+        text: "Languages: Python, JavaScript, SQL, C++ | AI/LLM: LangChain, LangGraph, agentic workflows, RAG, prompt engineering, Claude | Backend: Node.js, Express.js, FastAPI, REST API design, JWT auth, RBAC, Stripe, Razorpay | Databases: PostgreSQL, MySQL, MongoDB, Neo4j | Frontend: React, Zustand, React Query, TailwindCSS, HTML, CSS | Tools: Git, GitHub, Linux, Azure ML, VS Code, Cursor.",
       },
       {
-        keys: ["education", "university", "jadavpur", "cgpa", "coursework"],
-        text: "Education: Jadavpur University, B.E. in Information Technology (2022 - 2026), CGPA 7.35. Coursework includes Operating Systems, DBMS, OOP, Computer Networks, DSA, and Web Technologies.",
+        keys: ["education", "university", "jadavpur", "cgpa", "coursework", "school", "kendriya"],
+        text: "Education: Jadavpur University, B.E. in Information Technology (2022 - 2026), CGPA 7.35. Coursework includes Operating Systems, DBMS, OOP, Computer Networks, DSA, and Web Technologies. School: Kendriya Vidyalaya, IIT Kharagpur (CBSE, 2020 - 2022) — Class XII (Science) 88.6%, Class X 94.6%.",
       },
       {
-        keys: ["contact", "email", "github", "linkedin", "phone", "leetcode"],
-        text: "Contact Asim at asimkumarhansda@gmail.com | GitHub: https://github.com/cryptasim | LinkedIn: https://www.linkedin.com/in/asimkumarhansda/ | LeetCode: https://leetcode.com/asimkumarhansda/ | Phone: +91-8101061561",
+        keys: ["contact", "email", "github", "linkedin", "phone", "leetcode", "codeforces"],
+        text: "Contact Asim at asimkumarhansda@gmail.com | GitHub: https://github.com/cryptasim | LinkedIn: https://www.linkedin.com/in/asimkumarhansda/ | LeetCode: https://leetcode.com/asimkumarhansda/ | Codeforces: https://codeforces.com/profile/asimkumarhansda | Phone: +91-8101061561",
       },
       {
         keys: ["about", "interested", "interests"],
@@ -454,10 +458,10 @@ document.addEventListener("DOMContentLoaded", () => {
     about:
       "AI ENGINEER\nI like simple interfaces, difficult engineering problems, and products that feel obvious in hindsight.",
     experience:
-      "> ITC INFOTECH - AI ENGINEER (Aug 2026 - Present)\n> ITC INFOTECH - AI ENGINEER INTERN (Jan 2026 - Jul 2026)",
+      "> ITC INFOTECH - AI ENGINEER, K-FABRIK PLATFORM (Jan 2026 - Present)\n  KODX · KOTS · agent orchestration",
     projects: "> 01 / NOVAMED\n> 02 / PHONESAY\n> 03 / MEHFIL.WTF",
     contact:
-      "> Email: asimkumarhansda@gmail.com\n> GitHub: github.com/cryptasim\n> LinkedIn: linkedin.com/in/asimkumarhansda",
+      "> Email: asimkumarhansda@gmail.com\n> GitHub: github.com/cryptasim\n> LinkedIn: linkedin.com/in/asimkumarhansda\n> LeetCode: leetcode.com/asimkumarhansda\n> Codeforces: codeforces.com/profile/asimkumarhansda",
   };
 
   // Attach commands as getters to the window object so you can just type `help` instead of `help()`
@@ -504,11 +508,12 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       [
         { text: "> scanning agents ...", cls: "dim" },
-        { text: "01 coding-standards-enforcer", cls: "" },
-        { text: "02 build-orchestration-agent", cls: "" },
-        { text: "03 dependency-resolver-agent", cls: "" },
-        { text: "", cls: "dim" },
-        { text: "PLATFORM: K-FABRIC @ ITC", cls: "bright" },
+        { text: "01 kodx (coding agent)", cls: "" },
+        { text: "02 kots", cls: "" },
+        { text: "03 coding-standards-enforcer", cls: "" },
+        { text: "04 build-orchestration-agent", cls: "" },
+        { text: "05 dependency-resolver-agent", cls: "" },
+        { text: "PLATFORM: K-FABRIK @ ITC", cls: "bright" },
         { text: "STACK: FASTAPI + LLM WORKFLOWS", cls: "bright" },
       ],
       [
